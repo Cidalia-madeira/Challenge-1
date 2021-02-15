@@ -5,11 +5,16 @@ body {
     grid-template-columns: 1fr 1fr ;
     grid-template-areas:
         "header header"
+        "article""article"
         ;
     width: 100vw;
     grid-gap: 5px;
 }
 
-.header {
+header {
     grid-area: header;
+}
+
+article {
+	grid-area: article;
 }
