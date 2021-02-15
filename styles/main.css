@@ -1,0 +1,55 @@
+/*style CSS*/
+
+body {
+
+	background-color: #050210;
+
+}
+
+header {
+	position: relative;
+}
+
+.slider img {
+		position: fixed;
+		width: 100vw;
+    	top: 0;
+    	left: 0;
+    	min-width: 100%;
+    	z-index: -1;
+	}
+
+.mobiel , .logo,  header h1 , header h2 {
+		position: absolute;
+	}
+
+.mobiel {
+		z-index: 1;
+		width: 30%;
+   		margin: 5% 0% 0% 12%;
+
+	}
+
+header h1 , header h2 {
+	left: 50%;
+}	
+
+.logo {
+		display:none;
+	}
+
+
+
+@media only screen and (min-width: 360px) {
+
+
+
+}	
+
+@media only screen and (min-width: 500px) {
+
+}	
+
+@media only screen and (min-width: 900px) {
+
+}	

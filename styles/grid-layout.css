@@ -1,0 +1,15 @@
+/*grid-layout*/
+
+body {
+	 display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-areas:
+        "header header"
+        ;
+    width: 100vw;
+    grid-gap: 5px;
+}
+
+.header {
+    grid-area: header;
+}
