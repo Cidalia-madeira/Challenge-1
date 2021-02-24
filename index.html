@@ -10,7 +10,7 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js" integrity="sha512-d9xgZrVZpmmQlfonhQUvTR7lMPtO7NkZMkA0ABN3PHCbKA5nqylQ/yWlFAyY6hYgdF1Qh6nYiuADWwKB4C2WSw==" crossorigin="anonymous"></script>
 		<script src="main.js" defer></script>
 	</head>
-	<body>
+	<body onload="move()">
 		<header>
 			<img class="mobiel"src="images/mobiel-logo.png">
 			<img class="logo" src="images/logo.png">
@@ -25,20 +25,44 @@
 		<main>
 			<article class="velocity">
 					<canvas id="velocity" width="400" height="400"></canvas>
-			</article>	
+			</article>
+
 			<article class="radar">
 				<img src="images/radar.png">
 			</article>
+
 			<article class="acceleration">
-				
+				<canvas id="acceleration" width="400" height="400"></canvas>
 			</article>	
 			<article class="pressure">
+				<canvas id="pressure" width="400" height="400"></canvas>
 				
 			</article>
 			<article class="engine">
-				
+				<canvas id="engine1" width="400" height="400"></canvas>
+				<canvas id="engine2" width="400" height="400"></canvas>
 			</article>
+			<div id="myProgress">
+			  <div id="myBar"></div>
+			</div>
+			<div class="container">
+			  <div class="engine1">60%</div>
+			</div>
 
+			<p>CSS</p>
+			<div class="container">
+			  <div class="engine2">30%</div>
+			</div>
+
+			<p>JavaScript</p>
+			<div class="container">
+			  <div class="engine3">50%</div>
+			</div>
+
+			<p>PHP</p>
+			<div class="container">
+			  <div class="engine4">20%</div>
+			</div>
 		</main>	
 	</body>
 </html>		
