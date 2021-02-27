@@ -1,12 +1,18 @@
 /*grid-layout*/
+* {
+  box-sizing: border-box;
+}
 
 body {
 	 display: grid;
     grid-template-columns: 1fr 1fr ;
     grid-template-areas:
         "header header"
-        "velocity veocity"
+        "velocity velocity"
         "radar radar"
+        "acceleration acceleration"
+        "pressure pressure"
+        "engine engine"
         ;
     width: 100vw;
     grid-gap: 5px;
@@ -22,4 +28,16 @@ header {
 
 .radar {
 	grid-area: radar;
+}
+
+.acceleration {
+	grid-area: acceleration;
+}
+
+.pressure {
+	grid-area: pressure;
+}
+
+.engine {
+	grid-area: engine;
 }

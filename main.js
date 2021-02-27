@@ -220,46 +220,46 @@ var myLineChart = new Chart(ctx, {
 
 });     
 
-var ctx = document.getElementById('engine1').getContext('2d');
-var myChart = new Chart(ctx, {
-    type: 'bar',
-    data: {
-        labels: [1 , 2, 3, 4 ],
-        datasets: [{
-            label: 'egine1',
-            data: [4000, 5000, 4000, 7000],
-            backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)',
-                'rgba(153, 102, 255, 0.2)',
-                'rgba(255, 159, 64, 0.2)'
-            ],
-            borderColor: [
-                'rgba(255, 99, 132, 1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)',
-                'rgba(255, 159, 64, 1)'
-            ],
-            borderWidth: 1,
-            maxBarThickness:20
-        }]
-    },
-    options: {
-        scales: {
-            yAxes: [{
-                ticks: {
-                    max: 8000,
-                    min: 2000,
-                    stepSize: 2000
-                }
-            }]
-        }
-    }
-});
+// var ctx = document.getElementById('engine1').getContext('2d');
+// var myChart = new Chart(ctx, {
+//     type: 'bar',
+//     data: {
+//         labels: [1 , 2, 3, 4 ],
+//         datasets: [{
+//             label: 'egine1',
+//             data: [4000, 5000, 4000, 7000],
+//             backgroundColor: [
+//                 'rgba(255, 99, 132, 0.2)',
+//                 'rgba(54, 162, 235, 0.2)',
+//                 'rgba(255, 206, 86, 0.2)',
+//                 'rgba(75, 192, 192, 0.2)',
+//                 'rgba(153, 102, 255, 0.2)',
+//                 'rgba(255, 159, 64, 0.2)'
+//             ],
+//             borderColor: [
+//                 'rgba(255, 99, 132, 1)',
+//                 'rgba(54, 162, 235, 1)',
+//                 'rgba(255, 206, 86, 1)',
+//                 'rgba(75, 192, 192, 1)',
+//                 'rgba(153, 102, 255, 1)',
+//                 'rgba(255, 159, 64, 1)'
+//             ],
+//             borderWidth: 1,
+//             maxBarThickness:20
+//         }]
+//     },
+//     options: {
+//         scales: {
+//             yAxes: [{
+//                 ticks: {
+//                     max: 8000,
+//                     min: 2000,
+//                     stepSize: 2000
+//                 }
+//             }]
+//         }
+//     }
+// });
 
 // var ctx = document.getElementById('engine2').getContext('2d');
 // var myChart = new Chart(ctx, {
@@ -303,7 +303,7 @@ var myChart = new Chart(ctx, {
 // });
 
 var i = 0;
-function move() {
+function enginebar1() {
   if (i == 0) {
     i = 1;
     var elem = document.getElementById("myBar");
@@ -320,3 +320,146 @@ function move() {
     }
   }
 }
+
+var i = 0;
+function enginebar2() {
+  if (i == 0) {
+    i = 1;
+    var elem = document.getElementById("myBar2");
+    var height = 0;
+    var id = setInterval(frame, 5);
+    function frame() {
+      if (height >= 45) {
+        clearInterval(id);
+        i = 0;
+      } else {
+        height++;
+        elem.style.height = height + "%";
+      }
+    }
+  }
+}
+
+var i = 0;
+function enginebar3() {
+  if (i == 0) {
+    i = 1;
+    var elem = document.getElementById("myBar3");
+    var height = 0;
+    var id = setInterval(frame, 10);
+    function frame() {
+      if (height >= 70) {
+        clearInterval(id);
+        i = 0;
+      } else {
+        height++;
+        elem.style.height = height + "%";
+      }
+    }
+  }
+}
+
+var i = 0;
+function enginebar4() {
+  if (i == 0) {
+    i = 1;
+    var elem = document.getElementById("myBar4");
+    var height = 0;
+    var id = setInterval(frame, 10);
+    function frame() {
+      if (height >= 60) {
+        clearInterval(id);
+        i = 0;
+      } else {
+        height++;
+        elem.style.height = height + "%";
+      }
+    }
+  }
+}
+
+var i = 0;
+function enginebar5() {
+  if (i == 0) {
+    i = 1;
+    var elem = document.getElementById("myBar5");
+    var height = 0;
+    var id = setInterval(frame, 10);
+    function frame() {
+      if (height >= 30) {
+        clearInterval(id);
+        i = 0;
+      } else {
+        height++;
+        elem.style.height = height + "%";
+      }
+    }
+  }
+}
+
+var i = 0;
+function enginebar6() {
+  if (i == 0) {
+    i = 1;
+    var elem = document.getElementById("myBar6");
+    var height = 0;
+    var id = setInterval(frame, 10);
+    function frame() {
+      if (height >= 75) {
+        clearInterval(id);
+        i = 0;
+      } else {
+        height++;
+        elem.style.height = height + "%";
+      }
+    }
+  }
+}
+
+var i = 0;
+function enginebar7() {
+  if (i == 0) {
+    i = 1;
+    var elem = document.getElementById("myBar7");
+    var height = 0;
+    var id = setInterval(frame, 10);
+    function frame() {
+      if (height >= 90) {
+        clearInterval(id);
+        i = 0;
+      } else {
+        height++;
+        elem.style.height = height + "%";
+      }
+    }
+  }
+}
+
+var i = 0;
+function enginebar8() {
+  if (i == 0) {
+    i = 1;
+    var elem = document.getElementById("myBar8");
+    var height = 0;
+    var id = setInterval(frame, 10);
+    function frame() {
+      if (height >= 60) {
+        clearInterval(id);
+        i = 0;
+      } else {
+        height++;
+        elem.style.height = height + "%";
+      }
+    }
+  }
+}
+
+window.onload=enginebar1;
+window.onload=enginebar2;
+window.onload=enginebar3;
+window.onload=enginebar4;
+window.onload=enginebar5;
+window.onload=enginebar6;
+window.onload=enginebar7;
+window.onload=enginebar8;
+
