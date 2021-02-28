@@ -4,7 +4,7 @@
 }
 
 body {
-	 display: grid;
+	 display: inline-grid;
     grid-template-columns: 1fr 1fr ;
     grid-template-areas:
         "header header"
@@ -23,7 +23,7 @@ header {
 }
 
 .velocity {
-	grid-area: article;
+	grid-area: velocity;
 }
 
 .radar {
@@ -40,4 +40,16 @@ header {
 
 .engine {
 	grid-area: engine;
+}
+
+@media only screen and (min-width: 600px) {
+	body {
+    grid-template-areas:
+        "header header"
+        "velocity radar"
+        "acceleration pressure"
+        "engine engine"
+        ;
+}
+
 }
