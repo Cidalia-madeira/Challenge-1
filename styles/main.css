@@ -344,7 +344,8 @@ header h1 {
 	}
 
 	.engine {
-		height:20%;
+		height: 33%;
+    	margin-top: 49%;
 	}
 
 	.logo {
@@ -357,8 +358,203 @@ header h1 {
 		display:none;
 	}
 
+	.velocity{ 
+		height: 40vh;
+	    width: 40vw;
+	    margin-top: 48%;
+	    margin-left: -5%;	   
+	}    
+
+	#velocity {
+		left: 60%;
+		margin-bottom: 40%;
+	}
+
+	.radar {
+		height: 0%;
+	    margin-left: 7%;
+	    margin-top: -242px;
+	    left: 54%;
+	    margin-bottom: 40%;
+	    padding-bottom: 82%;
+	}
+
+	.motion {
+		width: 195px;
+    	height: 196px;
+	}
+
+	h4 {
+		font-size: 31pt;
+	}
+
+	h3 {
+
+	    padding-left: 14px;
+	    font-size: 11pt;
+	}
+
+	.block {
+		 height: 150px;
+	}
+
+	.flex2 {
+		margin-top:-34px;
+	}
+
+	.acceleration {
+		margin-top: -17%;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	.acceleration .block {
+		 height: 109px;
+   		 width: 81%;
+   		 margin-left: -10%;
+	}
+
+	.acceleration-flex {
+		padding-top:33px;
+	}
+
+	.pressure {
+		margin-right: 0px;
+		width:42vw;
+		margin-top:-51%;
+	}
+
+	.pressure .block {
+		margin-top: 0px;
+		margin-right: -13%;
+	}
+
+	#pressure {
+		left:73%;
+	}
+
+	.bars {
+		margin-left: 26px;
+	}
+
+	.image-engine img {
+		margin-top: 10%;
+	}
+
+
+
+
+
+}	
+
+@media only screen and (min-width: 680px) {
+
+	.acceleration .block {
+		top:-43px;
+	}
+
+	#acceleration {
+		top: -33px;
+	}
+
+	.engine {
+		margin-top: 60%;
+	}
+
+	.motion {
+    	width: 224px;
+    	height: 224px;
+    }	
+
 }	
 
 @media only screen and (min-width: 900px) {
 
-}	
+	    .pressure {
+	    	margin-top: -40%;
+	    	width:37vw;
+	    }
+
+	    .pressure .block {
+	    	width: 359px;
+	    }
+	    
+	    #pressure {
+	    	height: 400px;
+    		width: 400px;
+	    }
+
+	    .engine {
+	    	height: 17%;
+	    }	
+
+	    .motion {
+			width: 220px;
+		    height: 220px;
+	    }
+
+	    .radar img {
+	    	width:60%;
+	    }
+
+	    .radar {
+    		width: 40vw;
+    		padding-bottom: 71%;
+    		margin-left: 12%;
+    		 margin-top: -242px;
+    	}
+
+    	.acceleration {
+    		width: 41vw;
+    	}	
+
+    	#acceleration {
+    		height: 400px;
+    		width:400px;
+    	}
+
+    	.bars {
+   			 margin-left: 18px;
+   		}	 
+
+}
+
+@media only screen and (min-width:1200px) {
+	.velocity{
+		  width: 24vw;
+		  margin-left:49px;
+	}
+
+	#velocity {
+		left: 79%
+	}
+
+	.radar {
+	    width: 30vw;
+    	padding-bottom: 47%;
+    	margin-left: 18%;
+    	margin-top: -290px;
+	}
+
+	.acceleration {
+		 width: 29vw;
+		 margin-left: 99px;
+	}
+
+	.pressure {
+		margin-top: -34%;
+        width: 32vw;
+	}
+
+	#pressure {
+		 top: -12%;
+		 height: 311px !important;
+	}
+
+	.engine {
+    	margin-top: 37%;
+    }
+
+	
+
+}
